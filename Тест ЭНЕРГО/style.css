@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Unbounded:wght@600&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    padding: 20px;
+    font-weight: 600;
+    margin: 0 40px 0 40px;
+}
+
+header h1 {
+    margin: 7px;
+    color: #000;
+}
+
+.img_header {
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+
+.header_div {
+    width: 70%;
+    height: 15px;
+    padding-bottom: 0px;
+    margin: 0px;
+    display: inline-block;
+    vertical-align: top;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.phone {
+    padding: 0px;
+    margin: 0px;
+    float: right;
+    color: #000;
+    text-decoration: none;
+    font-size: larger;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav li a {
+    color: rgb(0, 0, 0);
+    margin-left: 3%;
+    text-decoration: none;
+    font-size: medium;
+    justify-content: space-between;
+}
+
+hr {
+    width: 100%;
+    background-color: rgb(206, 205, 205);
+    border: 0;
+    height: 1px;
+}
+
+h2 {
+    font-family: 'Unbounded', sans-serif;
+    font-size: 55px;
+    margin: 30px 0;
+}
+
+.text {
+    width: 38%;
+    height: 100%;
+    float: left;
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background-size: cover;
+}
+
+.text p {
+    color: #656565;
+    font-weight: 550;
+}
+
+.text button {
+    appearance: button;
+    backface-visibility: hidden;
+    background-color: #6167ED;
+    border-radius: 6px;
+    border-width: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+    font-size: 100%;
+    height: 44px;
+    line-height: 1.15;
+    margin: 12px 0 0;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    width: 175px;
+}
+
+.automation {
+    width: auto;
+    height: auto;
+    display: table;
+    background: url('images/Тень.png') top 100px left 100% no-repeat;
+}
+
+.first_img {
+    width: 40%;
+    float: left;
+}
+
+.rectangle {
+    margin-left: 27%;
+    margin-top: 6%;
+    filter: drop-shadow( 0px 25px 20px rgba(92, 91, 91, 0.493));
+}
+
+.paper {
+    filter: drop-shadow( 10px 25px 15px rgba(92, 91, 91, 0.342));
+    margin-left: 7%;
+    margin-bottom: 8%;
+}
+
+.switch {
+    margin-bottom: 15%;
+    position: relative;
+    margin-top: -2%;
+    filter: drop-shadow( 10px 25px 15px rgba(92, 91, 91, 0.342));
+}
+
+.profit {
+    margin-bottom: 10%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
